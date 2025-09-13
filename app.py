@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 # Funzione per calcolare i punti di un pilota
 def calc_pilot_points(p):
-pts = 0.0
+    pts = 0.0
 
 # Punti base gara (prime 10 posizioni)
 base_points = [25,18,15,12,10,8,6,4,2,1]
