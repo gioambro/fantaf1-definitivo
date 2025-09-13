@@ -9,7 +9,7 @@ def calc_pilot_points(p):
 # Punti base gara (prime 10 posizioni)
 base_points = [25,18,15,12,10,8,6,4,2,1]
 pos = p.get("position_gp")
-if pos and 1 <= pos <= 10:
+    if pos and 1 <= pos <= 10:
 pts += base_points[pos-1]
 
 # Bonus
